@@ -1,0 +1,5 @@
+*.img
+*.tmp
+*.__debugging.bat
+*.__debugging.cmd
+*.__debugging.zip
