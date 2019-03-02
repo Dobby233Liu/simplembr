@@ -48,7 +48,7 @@ boot2:
     mov fs, ax
     mov gs, ax
     mov ss, ax
-	mov esi, info0
+    mov esi, info0
     mov ebx, 0xb8000
 .loop:
     lodsb
