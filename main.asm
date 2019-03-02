@@ -54,11 +54,11 @@ boot2:
     lodsb
     or al,al
     jz halt
-	;color, 0x0700 is gray, 0x0F00 is white
+    ;color, 0x0700 is gray, 0x0F00 is white
     or eax, 0x0700
     mov word [ebx], ax
     add ebx,2
-	jmp .loop
+    jmp .loop
 halt:
     cli
     hlt	
